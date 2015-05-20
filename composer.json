@@ -1,0 +1,23 @@
+{
+	"name": "opauth/qq",
+	"description": "QQ strategy for Opauth",
+	"keywords": ["authentication","oauth","qq","tencent"],
+	"homepage": "http://opauth.org",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Fentoo",
+			"email": "pengqinghui@gmail.com",
+			"homepage": ""
+		}
+	],
+	"require": {
+		"php": ">=5.2.0",
+		"opauth/opauth": ">=0.2.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
