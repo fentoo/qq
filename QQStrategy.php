@@ -64,8 +64,8 @@ class QQStrategy extends OpauthStrategy{
                     'code' => 'Get access token error',
                     'message' => 'Failed when attempting to get access token',
                     'raw' => array(
-                    'headers' => $response
-                )
+                        'headers' => $response
+                    )
                 );
                 $this->errorCallback($error);
             }
@@ -119,9 +119,9 @@ class QQStrategy extends OpauthStrategy{
                 'code' => 'Get OpenID error',
                 'message' => 'Failed when attempting to query for user OpenID',
                 'raw' => array(
-                'access_token' => $access_token,
-                'headers' => $uid
-            )
+                    'access_token' => $access_token,
+                    'headers' => $uid
+                )
             );
 
             $this->errorCallback($error);
